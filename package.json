@@ -1,0 +1,25 @@
+{
+  "name": "@example/minimal",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^1.0.2",
+    "astro": "^1.6.13",
+    "svelte": "^3.54.0"
+  },
+  "devDependencies": {
+    "@threlte/core": "^5.0.5",
+    "@threlte/preprocess": "^0.0.2",
+    "@types/three": "^0.146.0",
+    "svelte-sequential-preprocessor": "^0.0.7",
+    "three": "^0.147.0"
+  }
+}
